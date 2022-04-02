@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Signup</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <div class="welcome"><h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+        <p><a class="welcomelogin" type="button" href="login.html">로그인</a>
+            <span class="회원가입">회원가입</span>
+        </P></div>
+        <hr / color="black">
+        <br>
+        <div class="inputpart"><p class = "inputs">개인정보(필수)</p>
+            <form method="get" action="www.123.com"></form>
+                <p class = "inputs"><label for="name">
+                    이름 :<input type="text" name = "name" placeholder="이름을 입력하세요" autofocus="autofocus" id="name">
+                </label></p>
+                <p class = "inputs"><label for="birthday">
+                    생일 :<input type="date" name = "birthday" id = "birthday">
+                </label></p>
+                <p class = "inputs"><label for="sem">
+                    학년 :<input type="number" name = "sem" id = "sem" step="1">
+                </label></p>
+                <p class = "inputs"><label for="tel">
+                    전화번호 :<input type="tel" name="telenumber" placeholder="(###)###-####" 
+                    pattern="\(\d{3}\) \d{3}-\d{4}" required id="tel">
+                </label></p>
+                <p class = "inputs"><label for="UserID">
+                    유자 아이디 :<input type="text" name = "UserID" placeholder="아이디를 입력하세요" id = "UserID">
+                </label></p>
+                <p class = "inputs"><label for="pw">
+                    비밀번호 :<input type="password" name = "password" placeholder="비밀번호 입력하세요" autocomplete = "off" id = "pw">
+                </label></p>
+                <p class = "inputs"><label for="omtpw">
+                    비밀번호 확인 :<input type="password" name = "password" placeholder="비밀번호 확인" autocomplete = "off" id = "omtpw">
+                </label></p>
+                <p class="firstpagesbuttons">
+                    <input class="Signupbutton" type="submit" value="Signup">
+                    <input class="Cancelbutton" type="submit" value="Cancel">
+                </p>
+        </div>
+        <hr / color="black">
+    </body>
+</html>

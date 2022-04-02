@@ -1,0 +1,59 @@
+.welcome h1{
+    font-family: 'BIZ UDMincho'; font-size: 40px;
+    text-align:left;
+}
+
+.welcomelogin{
+    text-decoration: none;
+    color: black;
+}
+
+.firstpagesbuttons{
+    font-size: 0;
+}
+
+.Signupbutton{
+    background-color: forestgreen;
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.Cancelbutton{
+    background-color: red;
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.회원가입{
+    text-decoration: overline underline red;
+}
+
+.loginbutton{
+    background-color: rgb(3, 215, 243);
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.signupbutton{
+    text-decoration: none;
+    font-size: 10px;
+    background-color: rgb(255, 0, 234);
+    padding:2px;
+    color: black;
+    width: 160px;
+    height: 25px;
+    border: 2px solid black;\
+}
+
+.inputs{
+    margin: 5px;
+}
