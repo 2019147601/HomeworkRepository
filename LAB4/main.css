@@ -1,0 +1,304 @@
+.welcome h1{
+    font-family: 'BIZ UDMincho'; font-size: 40px;
+    text-align:left;
+}
+
+.welcomelogin{
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+}
+
+.firstpagesbuttons{
+    font-size: 0;
+}
+
+.Signupbutton{
+    background-color: forestgreen;
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.Cancelbutton{
+    background-color: red;
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.회원가입{
+    text-decoration: overline underline red;
+    margin: 3px;
+}
+
+.loginbutton{
+    background-color: rgb(3, 215, 243);
+    padding:2px;
+    color: black;
+    width: 90px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.signupbutton{
+    text-decoration: none;
+    font-size: 10px;
+    background-color: rgb(255, 0, 234);
+    padding:2px;
+    color: black;
+    width: 160px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.inputs{
+    margin: 5px;
+}
+
+.first_box{
+    height: 10px;
+    width: 1018px;
+    border: 1px solid purple;
+    background-color: purple;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.second_box{
+    width: 1010px;
+    height: 25px;
+    border: 1px solid purple;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fb_text{
+    font-size: 1em;
+    margin: 0%;
+    padding: 0%;
+    animation-duration: 2s;
+    animation-name: movetext;
+}
+@keyframes movetext {
+    from{
+        margin-left: 80%;
+        width: 100%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.tired_box{
+    width: 1010px;
+    height: 25px;
+    border: 1px solid purple;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 7px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+.fourth_box{
+    width: 1008px;
+    height: 480px;
+    border: 1px solid purple;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+#main_page{
+    font-size: 0.6em;
+    text-decoration: overline underline red
+}
+
+.login_signup_text{
+    font-size: 0.6em;
+    color: black;
+    text-decoration: none;
+}
+
+.line1{
+    border: 1px solid black;
+    background-color: black;
+}
+
+#nested_box_left{
+    width: 480px;
+    height: 420px;
+    border: 1px solid purple;
+    padding: 0px;
+    margin-bottom: 8px;
+    margin-top: auto;
+    margin-left: 5px;
+    margin-right: auto;
+    position: absolute;
+}
+
+#nested_box_right{
+    width: 480px;
+    height: 420px;
+    border: 1px solid purple;
+    padding: 0px;
+    margin-bottom: 8px;
+    margin-top: aut;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.HTML5{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 3px;
+    padding: 3px;
+}
+
+#fourth_box_hr{
+    width: 1005px;
+    border: 0.8px solid black;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#HTML5cookbook{
+    margin: 5px;
+    padding: 0px;
+}
+#HTML5cookbook img{
+    transition: transform 2s;
+}
+
+#HTML5cookbook img:hover{
+    transform: translate(170%,120%) scale(4.5,3.5);
+}
+
+#HTML5forweb{
+    margin: 5px;
+    padding: 0px;
+}
+
+#HTML5forweb img{
+    transition: transform 2s;
+}
+
+#HTML5forweb img:hover{
+    transform: rotate(360deg);
+}
+
+.navigation_bar{
+    display: flex;
+}
+
+.HTML5_box{
+    padding-top: 25px;
+    display: flex;
+}
+
+.product_box{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.photo_box{
+    display: flex;
+    flex-grow: 1;
+}
+
+.nested_photo_box{
+    vertical-align: auto;
+    display: flex;
+    min-width: 25%;
+    flex-grow: 1;
+    border: 0.5px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-height: 300px;
+    width: auto;
+}
+
+.nested_photo_box img{
+    vertical-align: middle;
+}
+
+.product_intro{
+    display: flex;
+}
+
+.intro_title{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    min-width: auto;
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .navigation_bar{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .HTML5_box{
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro_title{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nested_photo_box{
+        flex-direction: column;
+    }
+    .product_box{
+        flex: 25%;
+        flex-direction: column;
+    }
+    .nested_intro_text_box{
+        column-count: 0;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .photo_box{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 801px){
+    .nested_intro_text_box{
+        display: block;
+        column-count: 2;
+        column-rule: 2px solid black;
+        font-size: 0.8em;
+    }
+}
+
